@@ -44,7 +44,8 @@
 /*-- Body --*/
 
 body {
-	background-color: #003466;
+	/*background-color: #003466;*/
+	background-color: #43536a;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -81,8 +82,22 @@ input[type="button"], input[type="submit"] {
 }
 
 /*-- //Body --*/
+/*   #e77c13 - orange 	#43536a*/
 
+.header {
+    background: #43536a;
+}
+.header-top {
+     padding: 1em 0;
+    background: #2e353f;
+}
 
+h3.tittlenew {
+  font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+  
+} 
 
 /*-- Heading --*/
 
@@ -90,8 +105,9 @@ h1 {
 	color: #FFF;
 	text-align: center;
 	font-size: 40px;
-	margin-top: 50px;
-	letter-spacing: 9px;
+	margin-top: 25px;
+	
+	letter-spacing: 2px;
 }
 
 /*-- //Heading --*/
@@ -101,7 +117,7 @@ h1 {
 /*-- Container --*/
 
 .container {
-	width: 45%;
+	width: 40%;
 	margin: 50px auto;
 	background-color: rgba(0, 0, 0, 0.22);
 	text-align: center;
@@ -143,21 +159,23 @@ h1 {
 	-ms-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
-	width: 24.8%;
+	width: 32.85%;
 	background: #d1d2d4;
+	/*background: #e77c13;*/
 	float: left;
 	padding: 15px 0;
 	border-right: 1px solid #777;
 }
 
-.resp-tab-item li:nth-child(4) {
+.resp-tab-item li:nth-child(3) {
 	border-right: 2px solid #333;
 }
 
 .resp-tab-active {
 	text-shadow: none;
 	color: #fff;
-	background: #e85627;
+	/*background: #e85627;*/
+	background: #e77c13;
 }
 
 .resp-tabs-container {
@@ -261,7 +279,8 @@ h2.resp-accordion {
 	outline: none;
 	cursor: pointer;
 	color: #FFF;
-	background-color: #e85627;
+	/*background-color: #e85627;*/
+	background-color: #e77c13;
 }
 
 .tab-1 form input[type="submit"]:hover, .register input[type="submit"]:hover, .reset input[type="submit"]:hover {
